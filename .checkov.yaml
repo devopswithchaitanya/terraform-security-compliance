@@ -1,0 +1,11 @@
+compact: true
+output: cli
+framework:
+  - terraform
+directory:
+  - .
+skip-check:
+  - CKV_AWS_8
+hard-fail-on:
+  - HIGH
+  - CRITICAL
